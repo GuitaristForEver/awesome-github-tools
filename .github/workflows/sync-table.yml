@@ -1,0 +1,27 @@
+# Regenerate TABLE.md from README.md on push to main.
+# Only commits if TABLE.md changed (e.g. after README edits).
+name: Sync TABLE.md
+
+on:
+  push:
+    branches: [main]
+    paths: ['README.md', 'scripts/generate-table.js']
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate TABLE.md
+        run: node scripts/generate-table.js
+
+      - name: Commit and push if TABLE.md changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --exit-code TABLE.md || (git add TABLE.md && git commit -m "chore: sync TABLE.md from README" && git push)
