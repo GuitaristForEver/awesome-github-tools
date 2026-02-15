@@ -50,6 +50,8 @@ Tools, apps, and extensions that enhance the GitHub experience. Prefer a compact
 
 - [Coralogix MCP Server](https://github.com/coralogix/coralogix-mcp-server) - Observability MCP server enabling AI agents to query logs, traces, and metrics from Coralogix using Dataprime and PromQL.
 
+- [Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp) - Fast and streamable Excalidraw MCP App for drawing hand-drawn diagrams with smooth viewport camera control and interactive fullscreen editing.
+
 ### Development Tools
 
 - [pre-commit](https://pre-commit.com) - Framework for managing and running code-quality hooks.
