@@ -28,6 +28,8 @@ Tools, apps, and extensions that enhance the GitHub experience. Prefer a compact
 
 - [act](https://github.com/nektos/act) - Run GitHub Actions locally for fast debugging.
 
+- [ccstatusline](https://github.com/sirmalloc/ccstatusline) - Customizable status line formatter for Claude Code CLI with powerline support and themes.
+
 - [Peacock](https://github.com/johnpapa/vscode-peacock) - VS Code extension that colors your workspace so you can tell which editor window or project you're in.
   - [Marketplace](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
 
