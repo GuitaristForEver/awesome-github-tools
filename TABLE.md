@@ -16,7 +16,7 @@
 | 🤖 Model Context Protocol (MCP) Servers | Excalidraw MCP | Fast and streamable Excalidraw MCP App for drawing hand-drawn diagrams with smooth viewport camera control and interactive fullscreen editing. | [Link](https://github.com/excalidraw/excalidraw-mcp) |
 | 🤖 Development Tools | pre-commit | Framework for managing and running code-quality hooks. | [Link](https://pre-commit.com) |
 | 🤖 Development Tools | tox | Standardize and reproduce test and lint environments locally and in CI. | [Link](https://tox.wiki) |
-| 🔒 Security & Compliance | gitleaks | Fast, customizable secret scanner for Git repositories to detect hardcoded secrets, credentials, and API keys. | [Link](https://github.com/zricethezav/gitleaks) · [Docs](https://docs.gitleaks.io/) |
+| 🔒 Security & Compliance | gitleaks | Fast, customizable secret scanner for Git repositories with pre-commit hook support to detect and prevent hardcoded secrets, credentials, and API keys. | [Link](https://github.com/zricethezav/gitleaks) · [Docs](https://docs.gitleaks.io/) |
 | 🔒 Security & Compliance | detect-secrets | Enterprise-grade tool from Yelp for detecting and preventing secrets in source code with baseline management and audit capabilities. | [Link](https://github.com/Yelp/detect-secrets) |
 
 ---

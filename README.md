@@ -64,7 +64,7 @@ Tools, apps, and extensions that enhance the GitHub experience. Prefer a compact
 
 ## 🔒 Security & Compliance
 
-- [gitleaks](https://github.com/zricethezav/gitleaks) - Fast, customizable secret scanner for Git repositories to detect hardcoded secrets, credentials, and API keys.
+- [gitleaks](https://github.com/zricethezav/gitleaks) - Fast, customizable secret scanner for Git repositories with pre-commit hook support to detect and prevent hardcoded secrets, credentials, and API keys.
   - [Docs](https://docs.gitleaks.io/)
 
 - [detect-secrets](https://github.com/Yelp/detect-secrets) - Enterprise-grade tool from Yelp for detecting and preventing secrets in source code with baseline management and audit capabilities.
